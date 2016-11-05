@@ -11,13 +11,11 @@
 	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 	<link rel="stylesheet" href="css/styles.css" />
-		<script src="https://www.youtube.com/iframe_api"></script>
-	<!-- End WOWSlider.com HEAD section <-->
+	<script src="https://www.youtube.com/iframe_api"></script>
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
 	<script type="text/javascript" src="engine2/jquery.js"></script>	<script src="https://www.youtube.com/iframe_api"></script>
-
 	<!-- End WOWSlider.com HEAD section --></head>
 
 <body>
@@ -253,7 +251,8 @@
 				</div>
 			</aside>
 
-
+			<!--EMAIL PHP FORM -->
+			
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
@@ -262,9 +261,11 @@
 						<p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
 					</div>
 					<div class="col-lg-10 col-lg-offset-1 text-center">
-						<form class="contact-form row">
+						<?php include 'sendmail.php';?>
+						<form class="contact-form row" action="mailto:briettenielson@gmail.com" method="post" enctype="text/plain">
 							<div class="col-md-4">
 								<label></label>
+								<!--mailto@ryan@northfortyphotography.com-->
 								<input type="text" class="form-control" placeholder="Name">
 							</div>
 							<div class="col-md-4">
