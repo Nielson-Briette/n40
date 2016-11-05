@@ -1,10 +1,3 @@
-/*
-
-/*Landing Zero theme - A free landing page theme from BootstrapZero*/
-http://www.bootstrapzero.com
-
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 html,
 body {
@@ -222,7 +215,7 @@ footer {
 }
 
 header {
-    height: 600px;
+    height: 400px;
     position: relative;
     min-height: auto;
     text-align: center;
@@ -238,6 +231,7 @@ header {
 }
 
 header .header-content {
+    margin-top: 250px;
     position: relative;
     width: 100%;
     padding: 100px 15px;
@@ -360,7 +354,7 @@ textarea {
 }
 
 .feature {
-    margin: 50px auto 0;
+    margin: 150px auto 0;
     max-width: 400px;
 }
 
@@ -485,6 +479,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn.btn-primary {
+    margin-top: 200px;
     background-color: transparent;
     border:1px solid #f0f0f0;
     border-color:#f0f0f0;
@@ -528,4 +523,8 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+#two {
+    margin-top: 250px;
 }
