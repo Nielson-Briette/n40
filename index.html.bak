@@ -11,14 +11,11 @@
 	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 	<link rel="stylesheet" href="css/styles.css" />
-		<script src="https://www.youtube.com/iframe_api"></script>
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>	<script src="https://www.youtube.com/iframe_api"></script>
 	<!-- End WOWSlider.com HEAD section <-->
-
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
-	<script type="text/javascript" src="engine2/jquery.js"></script>	<script src="https://www.youtube.com/iframe_api"></script>
-
-	<!-- End WOWSlider.com HEAD section --></head>
+</head>
 
 <body>
 	<nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -121,8 +118,8 @@
 			<br>
 			<div class="row no-gutter">
 				<div class="col-lg-4 col-sm-6">
-					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="img/barnR.jpg">
-						<img src="img/barn.jpg" class="img-responsive" alt="Image 1">
+					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="img/FlowersSunsetR.jpg">
+						<img src="img/FlowersSunset.jpg" class="img-responsive" alt="Image 1">
 						<div class="gallery-box-caption">
 							<div class="gallery-box-content">
 								<div>
@@ -133,20 +130,8 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-sm-6">
-					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="img/FlowersSunsetR.jpg">
-						<img src="img/FlowersSunset.jpg" class="img-responsive" alt="Image 2">
-						<div class="gallery-box-caption">
-							<div class="gallery-box-content">
-								<div>
-									<i class="icon-lg ion-ios-search"></i>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-						<div class="col-lg-4 col-sm-6">
-					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="img/Sunset_SpringvilleR.jpg">
-						<img src="img/Sunset_Springville.jpg" class="img-responsive" alt="Image 6">
+					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="img/barnR.jpg">
+						<img src="img/barn.jpg" class="img-responsive" alt="Image 2">
 						<div class="gallery-box-caption">
 							<div class="gallery-box-content">
 								<div>
@@ -192,7 +177,20 @@
 						</div>
 					</a>
 				</div>
-		</div>
+				<div class="col-lg-4 col-sm-6">
+					<a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="Sunset_SpringvilleR.jpg">
+						<img src="img/Sunset_Springville.jpg" class="img-responsive" alt="Image 6">
+						<div class="gallery-box-caption">
+							<div class="gallery-box-content">
+								<div>
+
+									<i class="icon-lg ion-ios-search"></i>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!--END VIDEOGRAPHY SECTION-->
@@ -200,24 +198,27 @@
 	<!--BEGIN PHOTOGRAPHY SECTION-->
 	<section class="container-fluid" id="four">
 		<h5 class="wide-space text-center">VIDEOGRAPHY</h5>
-		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container2">
-	<div class="ws_images"><ul>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/KZqay7p1O-s?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data2/images/kzqay7p1os.png" alt="Grandaddy Basin" title="Grandaddy Basin" id="wows2_0"/>went up to Grandaddy Basin for a little weekend fly fishing trip</li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/osP-Cc5OAd4?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data2/images/ospcc5oad4.png" alt="jquery slider" title="North Forty Photography First Flight" id="wows2_1"/>First time flying my drone</li>
-		<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/enl_O66h22Y?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data2/images/enl_o66h22y.png" alt="Cutting Wood with the boys" title="Cutting Wood with the boys" id="wows2_2"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Grandaddy Basin"><span><img src="data2/tooltips/kzqay7p1os.png" alt="Grandaddy Basin"/>1</span></a>
-		<a href="#" title="North Forty Photography First Flight"><span><img src="data2/tooltips/ospcc5oad4.png" alt="North Forty Photography First Flight"/>2</span></a>
-		<a href="#" title="Cutting Wood with the boys"><span><img src="data2/tooltips/enl_o66h22y.png" alt="Cutting Wood with the boys"/>3</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine2/wowslider.js"></script>
-	<script type="text/javascript" src="engine2/script.js"></script>
-	<!-- End WOWSlider.com BODY section --><label></label>
-		
+		<div class="row">
+			<div>
+			<!-- Start WOWSlider.com BODY section -->
+			<div id="wowslider-container1">
+			<div class="ws_images"><ul>
+					<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/KZqay7p1O-s?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/kzqay7p1os.png" alt="Grandaddy Basin" title="Grandaddy Basin" id="wows1_0"/>went up to Grandaddy Basin for a little weekend fly fishing trip</li>
+					<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/osP-Cc5OAd4?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/ospcc5oad4.png" alt="http://wowslider.com/" title="North Forty Photography First Flight" id="wows1_1"/>First time flying my drone</li>
+					<li><iframe width="100%" height="100%" src="https://www.youtube.com/embed/enl_O66h22Y?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" frameborder="0" allowfullscreen></iframe><img src="data1/images/enl_o66h22y.png" alt="Cutting Wood with the boys" title="Cutting Wood with the boys" id="wows1_2"/></li>
+				</ul></div>
+				<div class="ws_bullets"><div>
+					<a href="#" title="Grandaddy Basin"><span><img src="data1/tooltips/kzqay7p1os.png" alt="Grandaddy Basin"/>1</span></a>
+					<a href="#" title="North Forty Photography First Flight"><span><img src="data1/tooltips/ospcc5oad4.png" alt="North Forty Photography First Flight"/>2</span></a>
+					<a href="#" title="Cutting Wood with the boys"><span><img src="data1/tooltips/enl_o66h22y.png" alt="Cutting Wood with the boys"/>3</span></a>
+				</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+			<div class="ws_shadow"></div>
+			</div>	
+			<script type="text/javascript" src="engine1/wowslider.js"></script>
+			<script type="text/javascript" src="engine1/script.js"></script>
+			<!-- End WOWSlider.com BODY section -->
+		</div>
+		</div>
 		</section>
 		<!--BEGIN CONTACT US SECTION-->
 		<section id="five">
@@ -276,8 +277,7 @@
 								<input type="text" class="form-control" placeholder="Phone">
 							</div>
 							<div class="col-md-12">
-								
-	
+								<label></label>
 								<textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
 							</div>
 							<div class="col-md-4 col-md-offset-4">
