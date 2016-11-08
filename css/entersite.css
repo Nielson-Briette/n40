@@ -22,34 +22,37 @@ body {
 h1 {
     color: #fff;
     z-index: 1;
-       position: fixed; /* or absolute */
+       position: fixed; 
   top: 50%;
   left: 50%; 
-  margin-top: -50px;
-  margin-left: -100px;
+  margin-top: -105px;
+  margin-left: -240px;
+  opacity: .9;
 }
 
 
 .btn {
-    padding: 20px;
+    padding: 25px 50px 25px 50px;
     background-color:  transparent;
     border: #fff solid 2pt;
+    border-radius: 12px;
     color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 
-
-
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
+  
 	
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
+  max-width: 1024px;
+  max-height: 1024px;
 	
   /* Set up positioning */
   position: fixed;
@@ -62,4 +65,4 @@ img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
-}*/
+}
