@@ -529,7 +529,26 @@ img::-moz-selection {
     background: 0 0;
 }
 
-/*#two {
-    margin-top: 250px;
-}*/
+/*====VIDEOGRAPHY & PHOTOGRAPHY======*/
+
+.section-container {
+    display: flex;
+}
+
+.left-half {
+  background-color:#ecf0f1;
+  flex: 1;
+  padding: 1rem;
+  color: #000;
+  text-align: right;
+}
+
+.right-half {
+  background-color:#bdc3c7;
+  flex: 1;
+  padding: 1rem;
+  color: black;
+  font-size: x-small;
+}
+
 
