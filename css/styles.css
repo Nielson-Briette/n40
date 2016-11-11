@@ -538,9 +538,9 @@ img::-moz-selection {
 .left-half {
   background-color:#ecf0f1;
   flex: 1;
-  padding: 1rem;
+  padding: 20px 60px 20px 60px;
   color: #000;
-  text-align: right;
+  text-align: left;
 }
 
 .right-half {

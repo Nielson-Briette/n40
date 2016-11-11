@@ -343,3 +343,28 @@ figure.effect-sarah:hover p,figure.effect-sarah:hover h2 {
 	transform: translate3d(0,0,0);
 
 }
+
+/*videography
+*/
+
+figure.effect-video {
+
+	max-width: none;
+
+	width: 100%;
+
+	height: auto;
+
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+
+	transition: opacity 0.35s, transform 0.35s;
+
+	-webkit-transform: translate3d(-10px,0,0);
+
+	transform: translate3d(-10px,0,0);
+
+	-webkit-backface-visibility: hidden;
+
+	backface-visibility: hidden;
+
+}
