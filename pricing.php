@@ -58,7 +58,12 @@
                             </ul>
                     </div>
             </div>
-                   <div class="packages">
+     
+                </article>
+            </div>
+            <div class="right-half">
+                <article>
+                                  <div class="packages">
                         <h3>Photography Packages</h3>
                             <ul>
                                 <li>45min-1 hours, no assistant : $720 </li>
@@ -74,12 +79,10 @@
                                 <li>6+ hours, assistant: starts at $5,000+ </li>
                             </ul>
                     </div>
-                </article>
-            </div>
-            <div class="right-half">
-                <article>
                     <p>
-                        We have several different packages for different events. Please reach out and <a href="mailto:briettenielson@gmail.com?subject=Pricing&body=I'm interested in learning more about your pricing.'">contact us</a> for additional pricing details and
+                        We have several different packages for different events. 
+                        <br>Please reach out and <a href="mailto:briettenielson@gmail.com?subject=Pricing&body=I'm interested in learning more about your pricing.'">contact us</a> 
+                        for additional pricing details and
                         packages.
                     </p>
                 </article>
