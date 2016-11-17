@@ -14,41 +14,11 @@
 </head>
 
 <body>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-
-            </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" href="/onepage.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/onepage.html#two">About us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/onepage.html#three">Photography</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/onepage.html#four">Videography</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/onepage.html#five">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <header>
-    </header>
+    <div> 
+        <header role="banner" id="page_header">
+            <?php include '/php/header.php'; ?>
+        </header>
+    </div>
     <main>
         <section class="section-container">
             <div class="left-half">
@@ -56,34 +26,27 @@
                     <h1>Pricing</h1>
                     <div class="packages">
                         <h3>Wedding Packages</h3>
-            
                             <ul>
                                 <li>4 hours, no assistant : $1,183</li>
                                 <li>8 hours, assistant: $2,388 </li>
                                 <li>Full day, assistant: $4,721 </li>
                             </ul>
-                    
-
                     </div>
                     <div class="packages">
                         <h3>Business Marketing Packages</h3>
-               
                             <ul>
                                 <li>2-4 hours, no assistant : $984 </li>
                                 <li>4-6 hours, assistant: $1,879 </li>
                                 <li>6+ hours, assistant: $5,277 </li>
                             </ul>
-                  
                     </div>
                     <div class="packages">
                         <h3>Outdoor Sports Packages</h3>
-                      
                             <ul>
                                 <li>2-4 hours, no assistant : $1,1074</li>
                                 <li>4-6 hours, assistant: $2,383 </li>
                                 <li>6+ hours, assistant: $6,721 </li>
                             </ul>
-                     
                     </div>
                     <div class="packages">
                         <h3>Real Estate Packages</h3>
@@ -109,27 +72,10 @@
     </main>
 
 <!--BEGIN FOOTER-->
-<footer id="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <h4>About</h4>
-            <ul class="list-unstyled">
-                <li><a href="/onepage.html">Intro</a></li>
-                <li><a href="/aboutus.html">About Us</a></li>
-                <li><a href="/photography.html">Photography</a></li>
-                <li><a href="/videography.html">Videography</a></li>
-                <li><a href="/pricing.html">Pricing</a></li>
-            </ul>
-            <h4>Follow</h4>
-            <ul class="list-inline">
-                <li>
-                    <a rel="nofollow" href="https://www.youtube.com/channel/UCXkQroKrmu42OT0uZuR0ySA" title="YouTube"><i class="ion-social-youtube-outline"></i></a>&nbsp;</li>
-                <li><a rel="nofollow" href="https://www.facebook.com/n40photography/?fref=ts" title="Facebook"><i class="ion-social-facebook-outline"></i></a>&nbsp;</li>
-                <li><a rel="nofollow" href="https://www.instagram.com/n40photography/" title="Instgram"><i class="ion-social-instagram-outline"></i></a></li>
-                <li><a rel="nofollow" href="https://vimeo.com/167965947" title="Vimeo"><i class="ion-social-vimeo"></i></a></li>
-            </ul>
-        </div>
-    </div>
+<footer id="footer" role="contentinfo">
+     <div>
+                <?php include '/php/footer.php'; ?>
+            </div>
 </footer>
 <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -143,7 +89,7 @@
             </div>
         </div>
     </div>
-</div>
+
 <!--scripts loaded here from cdn for performance -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
