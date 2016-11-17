@@ -6,7 +6,7 @@
                 <li><a href="/aboutus.html">About Us</a></li>
                 <li><a href="/photography.html">Photography</a></li>
                 <li><a href="/videography.html">Videography</a></li>
-                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/pricing.php">Pricing</a></li>
             </ul>
             <h4>Follow</h4>
             <ul class="list-inline">

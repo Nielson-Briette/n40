@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
 </head>
 
 <body>
@@ -59,11 +59,21 @@
                     </div>
                 </article>
             </div>
-
+                   <div class="packages">
+                        <h3>Promotion Packages</h3>
+                            <ul>
+                                <li>0-2 hours,  1 camera, no assistant : $720 </li>
+                                <li>2-4 hours, no assistant : $1,1020</li>
+                                <li>4-6 hours, assistant: starts at $2,500+ </li>
+                                <li>6+ hours, assistant: starts at $5,000+ </li>
+                            </ul>
+                    </div>
+                </article>
+            </div>
             <div class="right-half">
                 <article>
                     <p>
-                        We have several differnt packages for different events. Please reach out and contact us for additional pricing details and
+                        We have several different packages for different events. Please reach out and <a href="mailto:briettenielson@gmail.com?subject=Pricing&body=I'm interested in learning more about your pricing.'">contact us</a> for additional pricing details and
                         packages.
                     </p>
                 </article>
