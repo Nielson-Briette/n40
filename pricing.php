@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>N40 | About Us</title>
+    <title>N40 | Pricing</title>
     <meta name="description" content="This is a website created for a senior capstone project for BYU-I" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
@@ -57,9 +57,15 @@
                                 <li>6+ hours, assistant: $6,721 </li>
                             </ul>
                     </div>
-                </article>
             </div>
                    <div class="packages">
+                        <h3>Photography Packages</h3>
+                            <ul>
+                                <li>45min-1 hours, no assistant : $720 </li>
+                                <li>1-2 hour session, no assistant : $1,350</li>
+                            </ul>
+                    </div>
+                     <div class="packages">
                         <h3>Promotion Packages</h3>
                             <ul>
                                 <li>0-2 hours,  1 camera, no assistant : $720 </li>
