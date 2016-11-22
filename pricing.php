@@ -11,7 +11,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/pricing.scss"/>
+    <link rel="stylesheet" href="/css/pricing.css"/>
 </head>
 
 <body>
