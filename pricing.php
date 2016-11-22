@@ -21,71 +21,46 @@
         </header>
     </div>
     <main>
-    <section id="pricing-table">
-            <div class="container">
-                <div class="row">
-                    <div class="pricing">
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
-                                    <p class="pricing-title">Free Plan</p>
-                                    <p class="pricing-rate"><sup>$</sup> 0 <span>/Mo.</span></p>
-                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
-                                </div>
+        <div class="promos">  
+    <div class="promo first">
+        <h4>Video & Photo</h4>
+        <ul class="features">
+            <li class="brief">Wedding Packages</li>
+            <li class="price">$1k-4k</span></li>
+             <li>4 hours, no assistant : $1,183</li>
+                                <li>8 hours, assistant: $2,388 </li>
+                                <li>Full day, assistant: $4,721 </li>
+             
+        </ul>
+    </div>
+    <div class="promo second">
+        <h4>Video & Photo</h4>
+        <ul class="features">
+            <li class="brief">Business Marketing Packages</li>
+            <li class="price">$900-5k</li>
+            <li>2-4 hours, no assistant : $984 </li>
+                                <li>4-6 hours, assistant: $1,879 </li>
+                                <li>6+ hours, assistant: $5,277 </li>
+           
+        </ul>
+    </div>
+    <div class="promo third scale">
+        <h4>Video</h4>
+        <ul class="features">
+            <li class="brief">Outdoor Sports Packages</li>
+            <li class="price">$1k-6k</li>
+             <li>2-4 hours, no assistant : $1,1074</li>
+                                <li>4-6 hours, assistant: $2,383 </li>
+                                <li>6+ hours, assistant: $6,721 </li> 
+           
+        </ul>
+    </div>  
+</div>
+     
 
-                                <div class="pricing-list">
-                                    <ul>
-                                        <li><i class="fa fa-envelope"></i>1,000 messages</li>
-                                        <li><i class="fa fa-signal"></i><span>limited</span> data</li>
-                                        <li><i class="fa fa-user"></i><span>limited</span> users</li>
-                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
-                                    <p class="pricing-title">Business Plan</p>
-                                    <p class="pricing-rate"><sup>$</sup> 20 <span>/Mo.</span></p>
-                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
-                                </div>
-
-                                <div class="pricing-list">
-                                    <ul>
-                                        <li><i class="fa fa-envelope"></i>10,000 messages</li>
-                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
-                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
-                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="pricing-table">
-                                <div class="pricing-header">
-                                    <p class="pricing-title">Extended Plan</p>
-                                    <p class="pricing-rate"><sup>$</sup> 80 <span>/Mo.</span></p>
-                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
-                                </div>
-
-                                <div class="pricing-list">
-                                    <ul>
-                                        <li><i class="fa fa-envelope"></i>10,0000 messages</li>
-                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
-                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
-                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </article>
             </div>
         </section>
-
     </main>
 
 <!--BEGIN FOOTER-->
