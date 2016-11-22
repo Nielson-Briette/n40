@@ -15,13 +15,14 @@
 </head>
 
 <body>
-    <h1>Pricing</h1>
+  
     <div> 
         <header role="banner" id="page_header">
             <?php include '/php/header.php'; ?>
         </header>
     </div>
     <main>
+          <h1>Pricing</h1>
         <div class="promos">  
     <div class="promo first">
         <h4>Video & Photo</h4>
@@ -55,7 +56,9 @@
         </ul>
     </div>  
 </div>
-<div style="clear: both;"></div>
+<div style="clear: both;">
+    <p> There are additional packages available. Please contact use for more information. </p>
+</div>
                 </article>
             </div>
         </section>

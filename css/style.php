@@ -11,7 +11,7 @@ body {
 }
 .promos {
     max-width: 1140px;
-    margin: 0px;
+    margin: 0 auto;
      display: flex;
      padding-top: 200px;
      padding-bottom: 200px;
