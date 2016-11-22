@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <h1>Pricing</h1>
     <div> 
         <header role="banner" id="page_header">
             <?php include '/php/header.php'; ?>
@@ -54,6 +55,7 @@
         </ul>
     </div>  
 </div>
+<div style="clear: both;"></div>
                 </article>
             </div>
         </section>

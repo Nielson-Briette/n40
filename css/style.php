@@ -5,14 +5,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 body {
-    background: background-image("/images/gallery/bg.jpg");
+    background-image("/images/gallery/bg.jpg");
     font-size: 100%;
     padding: 3em 0;
 }
 .promos {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px;
      display: flex;
+     padding-top: 200px;
+     padding-bottom: 200px;
 }
 .promo {
     margin: 1em .5em 1.625em;
