@@ -22,7 +22,7 @@
         </header>
     </div>
     <main>
-          <h1>Pricing</h1>
+          <h5>PRICING</h5>
         <div class="promos">  
     <div class="promo first">
         <h4>Video & Photo</h4>
@@ -57,7 +57,7 @@
     </div>  
 </div>
 <div style="clear: both;">
-    <p> There are additional packages available. Please contact use for more information. </p>
+    <p> There are additional packages available. Please contact us for more information. </p>
 </div>
                 </article>
             </div>
