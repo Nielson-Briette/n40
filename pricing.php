@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <!--<link rel="stylesheet" href="/css/styles.css" />-->
     <link rel="stylesheet" href="/css/pricing.css"/>
 </head>
 
@@ -28,9 +28,8 @@
             <li class="brief">Wedding Packages</li>
             <li class="price">$1k-4k</span></li>
              <li>4 hours, no assistant : $1,183</li>
-                                <li>8 hours, assistant: $2,388 </li>
-                                <li>Full day, assistant: $4,721 </li>
-             
+            <li>8 hours, assistant: $2,388 </li>
+            <li>Full day, assistant: $4,721 </li>
         </ul>
     </div>
     <div class="promo second">
@@ -52,12 +51,9 @@
              <li>2-4 hours, no assistant : $1,1074</li>
                                 <li>4-6 hours, assistant: $2,383 </li>
                                 <li>6+ hours, assistant: $6,721 </li> 
-           
         </ul>
     </div>  
 </div>
-     
-
                 </article>
             </div>
         </section>
