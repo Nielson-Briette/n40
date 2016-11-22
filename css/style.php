@@ -1,3 +1,6 @@
+<?php
+    header('Content-type: text/css; charset:UTF-8');
+?>
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
