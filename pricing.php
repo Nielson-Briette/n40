@@ -1,24 +1,27 @@
-        <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Startup Framework Inspired Pricing Table</title>
+<!DOCTYPE html>
+<html>
 
-            <!-- Bootstrap -->
-            <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-            
-            <!-- Main Style -->
-            <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<head>
+    <meta charset="utf-8">
+    <title>N40 | Pricing</title>
+    <meta name="description" content="This is a website created for a senior capstone project for BYU-I" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/pricing.css"/>
+</head>
 
-            <!--Icon Fonts-->
-            <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css" />
-                        
-          </head>
-
-        <body>
-     	<!-- Pricing Table Section -->
-        <section id="pricing-table">
+<body>
+    <div> 
+        <header role="banner" id="page_header">
+            <?php include '/php/header.php'; ?>
+        </header>
+    </div>
+    <main>
+    <section id="pricing-table">
             <div class="container">
                 <div class="row">
                     <div class="pricing">
@@ -82,6 +85,33 @@
                 </div>
             </div>
         </section>
-		<!-- Pricing Table Section End -->
-        </body>
-        </html>
+
+    </main>
+
+<!--BEGIN FOOTER-->
+<footer id="footer" role="contentinfo">
+     <div>
+                <?php include '/php/footer.php'; ?>
+            </div>
+</footer>
+<div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" alt="social media icons"/>
+                <p>
+                    <br/>
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!--scripts loaded here from cdn for performance -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
