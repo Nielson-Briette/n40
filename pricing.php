@@ -11,6 +11,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/pricing.css"/>
 </head>
 
 <body>
@@ -20,71 +21,41 @@
         </header>
     </div>
     <main>
-        <section class="section-container">
-            <div class="left-half">
-                <article>
-                    <h1>Pricing</h1>
-                    <div class="packages">
-                        <h3>Wedding Packages</h3>
-                            <ul>
-                                <li>4 hours, no assistant : $1,183</li>
+        <div class="promos">  
+    <div class="promo first">
+        <h4>Video & Photo</h4>
+        <ul class="features">
+            <li class="brief">Wedding Packages</li>
+            <li class="price">$1k-4k</span></li>
+             <li>4 hours, no assistant : $1,183</li>
                                 <li>8 hours, assistant: $2,388 </li>
                                 <li>Full day, assistant: $4,721 </li>
-                            </ul>
-                    </div>
-                    <div class="packages">
-                        <h3>Business Marketing Packages</h3>
-                            <ul>
-                                <li>2-4 hours, no assistant : $984 </li>
+             
+        </ul>
+    </div>
+    <div class="promo second">
+        <h4>Video & Photo</h4>
+        <ul class="features">
+            <li class="brief">Business Marketing Packages</li>
+            <li class="price">$900-5k</li>
+            <li>2-4 hours, no assistant : $984 </li>
                                 <li>4-6 hours, assistant: $1,879 </li>
                                 <li>6+ hours, assistant: $5,277 </li>
-                            </ul>
-                    </div>
-                    <div class="packages">
-                        <h3>Outdoor Sports Packages</h3>
-                            <ul>
-                                <li>2-4 hours, no assistant : $1,1074</li>
+           
+        </ul>
+    </div>
+    <div class="promo third scale">
+        <h4>Video</h4>
+        <ul class="features">
+            <li class="brief">Outdoor Sports Packages</li>
+            <li class="price">$1k-6k</li>
+             <li>2-4 hours, no assistant : $1,1074</li>
                                 <li>4-6 hours, assistant: $2,383 </li>
-                                <li>6+ hours, assistant: $6,721 </li>
-                            </ul>
-                    </div>
-                    <div class="packages">
-                        <h3>Real Estate Packages</h3>
-                            <ul>
-                                <li>0-2 hours,  1 camera, no assistant : $674 </li>
-                                <li>2-4 hours, no assistant : $1,1074</li>
-                                <li>4-6 hours, assistant: $2,383 </li>
-                                <li>6+ hours, assistant: $6,721 </li>
-                            </ul>
-                    </div>
-            </div>
-     
-                </article>
-            </div>
-            <div class="right-half">
-                <article>
-                                  <div class="packages">
-                        <h3>Photography Packages</h3>
-                            <ul>
-                                <li>45min-1 hours, no assistant : $720 </li>
-                                <li>1-2 hour session, no assistant : $1,350</li>
-                            </ul>
-                    </div>
-                     <div class="packages">
-                        <h3>Promotion Packages</h3>
-                            <ul>
-                                <li>0-2 hours,  1 camera, no assistant : $720 </li>
-                                <li>2-4 hours, no assistant : $1,1020</li>
-                                <li>4-6 hours, assistant: starts at $2,500+ </li>
-                                <li>6+ hours, assistant: starts at $5,000+ </li>
-                            </ul>
-                    </div>
-                    <p>
-                        We have several different packages for different events. 
-                        <br>Please reach out and <a href="mailto:briettenielson@gmail.com?subject=Pricing&body=I'm interested in learning more about your pricing.'">contact us</a> 
-                        for additional pricing details and
-                        packages.
-                    </p>
+                                <li>6+ hours, assistant: $6,721 </li> 
+           
+        </ul>
+    </div>  
+</div>
                 </article>
             </div>
         </section>

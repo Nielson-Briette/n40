@@ -565,29 +565,3 @@ blockquote p {
      border: 1px solid darkgrey;
     margin: 0px 0px 17px 20px;
 }
-
-/*PRICING*/
-.packages {
-    width: 240px;
-    float: left;
-    margin: 9px;
-    padding: 6px;
-    border-radius: 43px 43px 43px 43px;
-    -moz-border-radius: 43px 43px 43px 43px;
-    -webkit-border-radius: 43px 43px 43px 43px;
-    border: 0px solid #dbdbdb;
-    background-color: #c4c4c4;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   
-}
-
-.clear {
-    clear: left;
-}
-
-mark {
-    color: lightslategray;
-    background-color: black;
-}
