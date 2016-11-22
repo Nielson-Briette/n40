@@ -3,8 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 @import "compass";
 
-// mixins
-// scottnix.com/placement-of-media-queries/
+
 @mixin breakpoint($point) {
     @if $point == medium {
         @media (min-width: 30em)  { @content; }
@@ -17,7 +16,7 @@
     }
 }
 
-// variables
+
 $background: #0F1012;
 $header-color: #f9f9f9;
 $body-color: #999999;
