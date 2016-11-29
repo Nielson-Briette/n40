@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #4f5f74			;
+    color: #F7CA18;
     outline: 0;
 }
 
@@ -119,7 +119,7 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #4f5f74			;
+    color: #F7CA18;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -139,12 +139,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color:#4f5f74			;
+    color:#F7CA18;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #4f5f74			 !important;
+    color: #F7CA18			 !important;
     background-color: transparent;
 }
 
@@ -261,6 +261,7 @@ textarea {
 
 .call-to-action h2 {
     margin: 0 auto 20px;
+     color: #F7CA18;
 }
 
 .gallery-box {
@@ -382,6 +383,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn.btn-primary:hover {
     opacity: 0.7;
+    border-color: #F7CA18;
 }
 
 .btn {
@@ -507,6 +509,7 @@ fieldset[disabled] .btn-default.active {
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+ 
 }
 .hvr-icon-grow-rotate:before {
   -webkit-transform: translateZ(0);
@@ -517,6 +520,7 @@ fieldset[disabled] .btn-default.active {
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+   color: #F7CA18;
 }
 .hvr-icon-grow-rotate:hover:before, .hvr-icon-grow-rotate:focus:before, .hvr-icon-grow-rotate:active:before {
   -webkit-transform: scale(1.5) rotate(12deg);
@@ -538,7 +542,7 @@ fieldset[disabled] .btn-default.active {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ECF0F1;
+  background: #F7CA18;
   height: 2px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
