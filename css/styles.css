@@ -3,13 +3,9 @@ html,
 body {
     width: 100%;
     height: 100%;
-}
-
-body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     background-color: black;
     color: #d3d3d3;
-    /*webkit-tap-highlight-color: #222;*/
 }
 
 hr {
@@ -39,6 +35,13 @@ a:focus {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+}
+
+h5 {
+    padding-left: 32px;
+    padding-top: 23px;
+    text-decoration: underline;
+    -moz-text-decoration-color: #f7ca18;
 }
 
 p {
@@ -589,6 +592,8 @@ fieldset[disabled] .btn-default.active {
 blockquote {
     font-size: 2em;
     color: lightgrey;
+    font: questrial;
+    text-transform: uppercase;
 }
 
 blockquote p {
@@ -601,8 +606,12 @@ blockquote p {
     margin: 0px 0px 17px 20px;
 }
 
-/*media inqueries*/
+mark {
+     background-color: #F7CA18;
+     color: white;
+}
 
+/*media inqueries*/
 @media(min-width:768px) {}
     .icon-lg {
         font-size: 80px;
@@ -644,7 +653,6 @@ blockquote p {
     }
 
 
-
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
@@ -659,7 +667,7 @@ blockquote p {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #f4f4f4;
+        color: #f7ca18;
     }
 
     .navbar-default .nav > li>a,
@@ -672,7 +680,7 @@ blockquote p {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fefefe;
+        color: #f7ca18;
         text-decoration: underline;
     }
 
@@ -683,14 +691,14 @@ blockquote p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #4f5f74			;
+        color: #f7ca18;
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #8b27b0;
+        color: #f7ca18;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -701,7 +709,7 @@ blockquote p {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color:#4f5f74			;
+        color:#f7ca18;
     }
 
 
@@ -714,4 +722,4 @@ header .header-content .inner h1 {
      h1.text-faded {
         margin-top: 0px;
     }
-}
+
